@@ -1,0 +1,15 @@
+extends layouts/view-layout.pug
+
+block styles
+        link(rel="stylesheet", href="/css/user.css")
+        
+block content 
+        div.page-section
+            h2.page-header User Profile
+            .card
+                img.user-thumb(src="https://via.placeholder.com/200x130", alt="user-image")
+                h1 #{userName}
+                h4.user-title #{jobTitle}
+                p #{address}
+                p 
+                    button.contact-btn Contact

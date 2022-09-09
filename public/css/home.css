@@ -1,0 +1,30 @@
+.banner-image img {
+    width: 100%;
+}
+
+.content {
+    padding: 40px 0;
+}
+
+.home-section .page-header {
+    text-align: center;
+    margin: 8px 0;
+}
+
+.home-section .sub-header {
+    text-align: center;
+    font-style: italic;
+    color: lightslategray;
+    margin: 8px 0;
+}
+
+.home-section .des-content {
+    text-align: center;
+    color: lightslategray;
+    margin: 8px 0;
+    max-width: 500px;
+    margin: auto;
+    line-height: 28px;
+    padding: 0 8px;
+    transition: .3s;
+}
